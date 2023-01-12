@@ -1,0 +1,12 @@
+FROM nginx:1.21.6-alpine
+
+RUN addgroup app && adduser -S -G app app
+
+WORKDIR /src
+COPY ./ .
+
+COPY . .
+ 
+EXPOSE 3306
+CMD ["php","artisan","migrate"]
+USER app

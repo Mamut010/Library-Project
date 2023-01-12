@@ -1,0 +1,196 @@
+.list_of_type_book_area 
+{
+    background-color: lightgray;
+    content: "";
+    clear: both;
+    resize:none;
+    overflow:auto; 
+}
+
+.list_of_type_book_container
+{
+
+    content: "";
+    clear: both;
+    resize:none;
+    overflow:auto; 
+
+}
+
+.list_of_type_book_container > h1
+{
+    color: green;
+    margin-top: 1%;
+    margin-left: 5%;
+    text-decoration: solid;
+    margin-bottom: 1%;
+}
+
+.list_of_type_book_container table
+{
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.list_of_type_book_container table th
+{
+    color: black;
+    padding: 1%;
+    border: 3px solid green;
+    text-align: center;
+    font-size: larger;
+}
+
+.list_of_type_book_container table td
+{
+    color: black;
+    padding: 0%;
+    border: 3px solid green;
+    text-align: center;
+    padding: 0.1%;
+    vertical-align: middle;
+    font-size: larger;
+}
+
+.list_of_type_book_container table td a
+{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    padding-left: 30%;
+    display: flex;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.list_of_type_book_container table td a:hover
+{
+    color: white;
+    background-color: #0b0a0a;
+}
+
+.list_of_type_book_container table td form
+{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.list_of_type_book_container table td button[type=submit]
+{   
+    text-decoration: none;
+    font-size: large;
+    border: none;
+    color: black;
+    text-align: center;
+    display: flexbox;
+    border: none; 
+    border-radius:50%;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background-color: lightgray;
+    margin: 0%;
+    align-items: center;
+}
+
+.list_of_type_book_container table td button[type=submit]:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: #0b0a0a;
+    cursor: pointer;
+}
+
+.pagination_bar
+{
+    background-color: lightgray;
+    content: "";
+    clear: both;
+    resize:none;
+    overflow:auto;  
+}
+
+.pagination_bar > a
+{
+    margin-top: 1%;
+    border: 2px solid rgb(216, 206, 206); 
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    min-width: 3%;
+    color: #ffffff;
+    background-color: #0b0a0a;
+    display: inline;
+    position: relative;
+    float: right;
+    padding: 4px;
+    margin-right: 0.5%;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.pagination_bar_current > span
+{
+    margin-top: 1%;
+    border:2px solid rgb(216, 206, 206); 
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    min-width: 3%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    display: inline;
+    position: relative;
+    float: right;
+    padding: 4px;
+    margin-right: 0.5%;
+    text-decoration: none;
+    text-align: center;
+    cursor: not-allowed;
+    opacity: .5;
+    pointer-events: none;
+}
+
+.pagination_bar > a:hover
+{
+    color: rgb(219, 160, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+.button_area
+{
+    background-color: lightgray;
+    content: "";
+    clear: both;
+    resize:none;
+    overflow:auto; 
+}
+
+.button_area > a
+{
+    margin-top: 2%;
+    border: black 3px solid;
+    color: rgb(255, 255, 255);
+    background-color: #0b0a0a;
+    float: right;
+    width: 15%;
+    margin-right: 5%;
+    display: block;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+
+.button_area > a:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: red;
+
+}

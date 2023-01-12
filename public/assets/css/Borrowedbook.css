@@ -1,0 +1,128 @@
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    overflow-x: auto;
+}
+
+.flex-column
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.back-button
+{
+    max-width: 8%;
+    float: left;
+    padding-top: 2%;
+    border-radius: 100px;
+    background-color: #0B2F5B;
+}
+
+.leftside
+{
+    margin-left: 10%;
+    flex: 40%;
+}
+
+.leftside-inside
+{
+    flex: 40%;
+}
+
+.rightside
+{
+    flex: 40%;
+    background-color: #0B2F5B;
+    margin-right: 10%;
+}
+
+.book-image
+{
+    width: 25rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.heading
+{
+    font-size: 500%;
+    font-family: cursive;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+.book-title
+{
+    text-align: left;
+    color: whitesmoke;
+    font-size: 300%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    padding-left: 10%;
+}
+
+.author
+{
+    text-align: left;
+    color: whitesmoke;
+    font-size: 200%;
+    font-family: serif;
+    padding-left: 10%;
+}
+
+.info
+{
+    text-align: left;
+    color: whitesmoke;
+    font-size: 200%;
+    font-family: serif;
+}
+
+.lable-form
+{
+    color: whitesmoke;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.setting-flex-in-form
+{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+.this-class-hold-borrow-button
+{
+    text-align: center;
+}
+
+input[type=submit]
+{
+    width: 200px;
+    height: 60px;
+    background-color: whitesmoke;
+    color:#0B2F5B;
+    border: solid;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+input[type=submit]:hover
+{
+    background-color:darkblue;
+    color: whitesmoke;
+}

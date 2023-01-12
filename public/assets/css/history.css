@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.borrow {
+  width: 100%;
+  min-height: 69vh;
+  position: relative;
+}
+
+.borrowing__title {
+  text-align: center;
+  font-family: "cormorantgaramond";
+  margin-bottom: 7rem;
+  font-size: 2rem;
+}
+
+.no-record-text {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 2em;
+}
+
+.borrowing__table {
+  display: inline-block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 17rem;
+/*  height: 30rem;
+  width: 80rem;*/
+}
+
+.borrow__table {
+  height: 300px;
+  width: 800px;
+  text-align: center;
+}
+
+.borrowing__table--title {
+  background-color: black;
+  color: white;
+  font-family: helvetica;
+}
+
+.coverbook {
+  width: 6rem;
+  height: 8rem;
+}
+
+.checked_in {
+  background-color: rgb(19, 219, 56);
+}
+
+.outofdate {
+  background-color: rgb(245, 71, 71);
+}

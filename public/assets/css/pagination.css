@@ -1,0 +1,58 @@
+.pagination_bar
+{
+    background-color: lightgray;
+    content: "";
+    clear: both;
+    resize:none;
+    overflow:auto;
+    text-align: center;
+}
+
+.pagination_bar > a
+{
+    margin-top: 1%;
+    border: 2px solid rgb(216, 206, 206); 
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    min-width: 3%;
+    color: #ffffff;
+    background-color: #0b0a0a;
+    display: inline;
+    position: relative;
+    float: left;
+    padding: 4px;
+    margin-left: 0.5%;
+    text-decoration: none;
+}
+
+.pagination_bar > a:hover
+{
+    color: rgb(219, 160, 0);
+    background-color: #000000;
+}
+
+.pagination_bar_current > span, .pagination_bar_dots > span
+{
+    margin-top: 1%;
+    border:2px solid rgb(216, 206, 206); 
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    min-width: 3%;
+    color: #ffffff;
+    background-color: #000000;
+    display: inline;
+    position: relative;
+    padding: 4px;
+    float: left;
+    margin-left: 0.5%;
+    text-decoration: none;
+}
+
+.disabled
+{
+    cursor: not-allowed;
+    opacity: .5;
+    pointer-events: none;
+}

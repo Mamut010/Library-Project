@@ -1,0 +1,12 @@
+FROM nginx:1.21.6-alpine
+
+RUN addgroup app && adduser -S -G app app
+
+WORKDIR /src
+COPY resource/view/ config/ app/ ./ 
+
+COPY . .
+ 
+EXPOSE 4000
+CMD ["php","artisan","serve"]
+USER app

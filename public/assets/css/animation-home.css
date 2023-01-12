@@ -1,0 +1,72 @@
+@keyframes fly-in-ltr {
+    0%   { 
+        left: -25%; 
+    }
+    100% { 
+        left: 0%; 
+    }
+  }
+  
+@keyframes fade-in-rtl {
+    0%   { 
+      opacity: 0;
+      right: -10%;	
+    }
+    100% {
+      opacity: 1;
+      right: 0%; 
+      visibility: visible;
+    }
+}
+
+@keyframes fade-in-rtl-about-img {
+    0%   { 
+      opacity: 0;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(-50%);
+      visibility: visible;
+    }
+}
+
+@keyframes fade-in {
+  from   { 
+      opacity: 0;
+  }
+  to { 
+      opacity: 1; 
+  }
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.fade-in-rtl-about-img {
+    visibility: hidden;
+    opacity: 0;
+    animation-name: fade-in-rtl-about-img;
+    animation-duration: 1.25s;
+    animation-delay: 0.25s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+  
+.intro__image > img {
+    animation-name: fly-in-ltr;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+  
+.intro__content {
+    visibility: hidden;
+    animation-name: fade-in-rtl;
+    animation-duration: 1.75s;
+    animation-delay: 0.25s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}

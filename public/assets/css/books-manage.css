@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow-x: auto;
+    background: repeat fixed url("https://static.wixstatic.com/media/11062b_37dedb80d2a040feba51dac3f2353f53~mv2.jpg/v1/fill/w_1899,h_929,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_37dedb80d2a040feba51dac3f2353f53~mv2.jpg");
+    width: 100%;
+    height: auto;
+}
+
+small
+{
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: small;
+    color: red;
+    visibility: hidden;
+}
+
+#bordermother
+{
+    width: 40%;
+    height: auto;
+    background-color: #F3F6F4;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.back-button
+{
+    max-width: 8%;
+    float: left;
+    padding-top: 2%;
+    border-radius: 100px;
+}
+
+.manage-heading
+{
+    padding-top: 1%;
+    margin: 5%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #3F7652;
+    font-size: 300%;
+}
+
+
+
+input[type=text]
+{
+    width: 190px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #E1E7E3;
+}
+
+input[type=number]
+{
+    width: 190px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #E1E7E3;
+}
+
+input[type=file]
+{
+    max-width: 90%;
+    border-radius: 5px;
+    background-color: #E1E7E3;
+}
+
+.booktype
+{
+    font-family: sans-serif;
+    color: #3F7652;
+}
+
+textarea
+{
+    height: 200px;
+    width: 90%;
+    background-color: #E1E7E3;
+}
+
+input[type=submit]:hover
+{
+    background-color: darkgreen;
+}
+
+input[type=reset]:hover
+{
+    background-color: darkkhaki;
+}
+
+
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    color: #3F7652;
+    text-align: left;
+    size: 16px;
+}
+
+.leftside
+{
+    flex: 50%;
+    padding-left: 13%;
+}
+
+.rightside
+{
+    flex: 50%;
+    padding-right: 2%;
+}
+
+.testalign
+{
+    font-family: sans-serif;
+    text-align: center;
+    color: #3F7652;
+    font-size: 100%;
+    margin-bottom: 10%;
+}
+
+.this-is-the-class-hold-class-button
+{
+    margin-right: 5%;
+}
+.button
+{
+    text-align: right;
+}
+.button-design
+{
+    padding: 3%;
+    text-decoration: none;
+    background-color: #3F7652;
+    color: whitesmoke;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.button-design:hover
+{
+    background-color: darkred;
+}
+
+.change-text-color
+{
+    color: whitesmoke;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: sans-serif;
+    border:2px solid #ccc;
+    overflow-y: scroll;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #E1E7E3
+}

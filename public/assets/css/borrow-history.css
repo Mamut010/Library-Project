@@ -1,0 +1,151 @@
+#footer
+{
+    background-color: #431a20;
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    text-align: center;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow-x: auto;
+    background: no-repeat fixed url("https://static.wixstatic.com/media/11062b_37dedb80d2a040feba51dac3f2353f53~mv2.jpg/v1/fill/w_1899,h_929,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_37dedb80d2a040feba51dac3f2353f53~mv2.jpg");
+    width: 100%;
+    height: auto;
+}
+
+.booklist
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+}
+
+.book-image
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    max-height: 120px;
+}
+
+.here-is-the-table
+{
+    margin-bottom: 10%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table
+{
+    text-align: center;
+    font-size: 100%;
+    font-style: italic;
+    font-family: serif;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: lightgray;
+    overflow-x: auto;
+}
+table, th, td
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-color: transparent;
+}
+
+th
+{
+    font-size: 150%;    
+    font-style:normal;
+}
+tr:hover
+{
+    background-color: lightgreen;
+}
+th
+{
+    color: green;
+}
+
+here-is-the-table a
+{
+    color: blue;
+}
+
+here-is-the-table a:hover
+{
+    text-decoration: underline;
+}
+
+.overdue
+{
+    color: whitesmoke;
+    background-color: lightcoral;
+}
+
+.overdue:hover
+{
+    background-color: red;
+}
+
+.flex-button
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+.left-button
+{
+    flex: 50%;
+    text-align: left;
+}
+.right-button
+{
+    flex: 50%;
+    text-align: right;
+}
+.here-is-the-button
+{
+    text-align: center;
+    background-color: darkcyan;
+    color: whitesmoke;
+    border-style: none;
+    width: 25%;
+    height: 200%;
+}
+
+.here-is-the-button:hover
+{
+    background-color: darkgreen;
+}
+
+input[type=submit]
+{
+    border: none;
+    color: blue;
+    font-family: serif;
+    font-style: italic;
+    font-size: 16px;
+    background: transparent;
+}
+
+input[type=submit]:hover
+{
+    text-decoration: underline;
+}

@@ -1,0 +1,191 @@
+html
+{
+    font-size: 62.5%;
+}
+
+.flex-collum
+{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.leftside-inside
+{
+    flex: 15%;
+    text-align: center;
+    /*background-color: #eef2c9;*/
+    background-color: #f9efec;
+}
+
+.rightside-inside
+{
+    flex: 70%;
+    /*background-color: #ffef98;*/
+    background-color: #ffef9800;
+    text-align: center;
+    font-size: 200%;
+}
+
+.leftside-side-for-rating
+{
+    flex: 50%;
+}
+
+.rightside-side-for-status
+{
+    flex: 50%;
+}
+
+.leftside-comment-name
+{
+    flex: 10%;
+}
+
+.rightside-comment-date
+{
+    flex: 10%;
+}
+
+.book-image
+{
+    max-width: 25%;
+    padding-top: 10%;
+}
+
+.booktitle
+{
+    font-style: italic;
+    font-size: 300%;
+}
+.bookauthor
+{
+    font-family:Arial;
+    font-style: inherit;
+}
+.aboutthebook1
+{
+    font-family: 'Franklin Gothic Medium';
+    text-align: left;
+    padding-left: 10%;
+    margin-bottom: 1%;
+    font-style: italic;
+}
+.aboutthebook2
+{
+    font-family: 'Franklin Gothic Medium';
+    text-align: right;
+    padding-right: 20%;
+    font-style: italic;
+}
+.aboutthebook3
+{
+    font-family: 'Franklin Gothic Medium';
+    text-align: left;
+    padding-left: 20%;
+    margin-bottom: 1%;
+    font-style: italic;
+}
+.overview
+{
+    font-family: 'Franklin Gothic Medium';
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.overviewofoverview
+{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 2px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.one-comment
+{
+    width: 100%;
+    border-bottom: 1px black solid;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.comment-section
+{
+    margin-top: 0px;
+    /*background-color: #a3f7ba;*/
+    background-color: #ffef9800;
+    padding-left: 100px;
+    text-align: justify;
+    margin-bottom: 2%;
+}
+.comment-heading
+{
+    font-style: italic;
+    font-size: 130%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.comment-person
+{
+    font-family: sans-serif;
+    /*font-size: 16px;*/
+}
+.finally-here-is-the-comment
+{
+    /*font-family: 'Franklin Gothic Medium';*/
+    font-family: 'Arial';
+    text-align: justify;
+    letter-spacing: 1px;
+    overflow-x: hidden;
+    overflow-y:unset ;
+    max-width: 80%;
+    margin-top: 3%;
+}
+.this-is-the-class-hold-class-button
+{
+    margin-right: 10%;
+}
+.button
+{
+    text-align: right;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.button-design
+{
+    padding: 14px 25px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #446472;
+    color: whitesmoke;
+    border-radius: 30px;
+}
+.button-design:hover
+{
+    background-color: darkcyan;
+}
+.more-button-design
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #446472;
+    color: whitesmoke;
+    border-radius: 30px;
+    margin-right: 5%;
+}
+.more-button-design:hover
+{
+    background-color: darkcyan;
+}

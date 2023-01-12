@@ -1,0 +1,53 @@
+@keyframes fade-in {
+    from   { 
+        opacity: 0;
+    }
+    to { 
+        opacity: 1; 
+    }
+}
+
+@keyframes fade-in-ttb {
+    from   { 
+        opacity: 0;
+        margin-top: 0rem; 
+    }
+    to { 
+        opacity: 1;
+        margin-top: 3.2rem; 
+        visibility: visible;
+    }
+}
+
+@keyframes stretch {
+    from   {
+        transform: translateX(0); 
+        width: 0%;
+    }
+    to { 
+        transform: translateX(-13%);
+        width: 30rem;
+    }
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+.fade-in-ttb {
+    visibility: hidden;
+    animation-name: fade-in-ttb;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.stretch {
+    transform: translateX(0);
+    animation-name: stretch;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}

@@ -1,0 +1,166 @@
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    overflow-x: auto;
+    /*background-color: antiquewhite;*/
+    background-color: #f9efec;
+}
+
+.bordermother
+{
+    border-radius: 30px;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    border-color: aqua;
+    border-width: 3px;
+    border-style: double;
+    background-color: whitesmoke;
+}
+
+.flex-column
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside
+{
+    flex: 40%;
+    margin-left: 10%;
+    border-bottom: blueviolet 1px solid;
+}
+
+.rightside
+{
+    flex: 40%;
+    margin-right: 10%;
+    padding-top: 5%;
+    border-bottom: blueviolet 1px solid;
+}
+
+.image-cover
+{
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    height: 50rem;
+}
+
+.book-title
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5rem;
+    text-align: center;
+    /*font-style: italic;*/
+}
+
+.author
+{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10%;
+    font-family: serif;
+    font-style: oblique;
+}
+
+.normalthing
+{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+#rating
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#comment
+{
+    padding-bottom: 5%;
+}
+
+.comment-form
+{
+    font-size: 2rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+input[type=number]
+{
+    border-style: double;
+    background-color: whitesmoke;
+    padding: 1px;
+    margin-bottom: 1px;
+    font-size: 1.75rem;
+    border-radius: 0.4rem;
+}
+
+textarea
+{
+    width: 100%;
+    height: 15vh;
+    resize: none;
+    font-size: 2rem;
+}
+
+.this-is-the-class-hold-class-button
+{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.back-button
+{
+    text-align: center;
+    background-color: darkcyan;
+    color: whitesmoke;
+    border-style: none;
+    width: 25%;
+    height: 200%;
+}
+
+.back-button:hover
+{
+    background-color: darkgreen;
+}
+
+.submit-button
+{
+    text-align: center;
+    background-color: darkcyan;
+    color: whitesmoke;
+    border-style: none;
+    width: 25%;
+    height: 200%;
+}
+
+.submit-button:hover
+{
+    background-color: darkgreen;
+}
+
+.leftside-button
+{
+    flex: 40%;
+    text-align: left;
+}
+
+.rightside-button
+{
+    flex: 40%;
+    text-align: right;
+}

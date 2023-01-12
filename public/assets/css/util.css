@@ -1,0 +1,24 @@
+.center
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-item
+{
+    transform: translateX(-40%);
+}
+
+.shade
+{
+    box-shadow: 0.5rem 1rem 2rem 0.75rem #ccc;
+}
+
+.disabled
+{
+    cursor: not-allowed;
+    opacity: .5;
+    pointer-events: none;
+}

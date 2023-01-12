@@ -1,0 +1,256 @@
+html {
+  font-size: 62.5%;
+}
+
+.intro {
+  width: calc(100% - 4rem);
+  height: 91rem;
+  background-color: #f9efec;
+  margin: 0 auto;
+  position: relative;
+}
+.intro__box {
+  width: 59%;
+  height: 63%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-main {
+  width: 78%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  object-fit: cover;
+}
+
+.intro__content {
+  width: 50%;
+  height: 74%;
+  background-color: #431a21;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5rem;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1600px) {
+  .intro__box {
+    width: 79%;
+    height: 73%;
+  }
+}
+
+.intro__title {
+  color: white;
+  font-family: "playfair display", serif;
+  font-size: 4.8rem;
+  line-height: 5.7rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.intro__text {
+  display: inline-block;
+  width: 39rem;
+  height: 18rem;
+  font-weight: 400;
+}
+
+.intro__desc {
+  color: white;
+  width: 41rem;
+}
+
+.intro__text--small {
+  display: inline-block;
+  width: 23rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+}
+.button__area {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 3.4rem;
+}
+
+.button__left,
+.button__right {
+  background-color: #cb2904;
+  color: white;
+  padding: 1.3rem 4.8rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button__right {
+  margin-left: 1rem;
+}
+
+.button__mid {
+  color: white;
+  font-family: "playfair display", serif;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  /*margin-left: 1rem;*/
+}
+
+.arrow {
+  color: red;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  font-size: 5rem;
+}
+
+#book {
+  width: 100%;
+  height: 90rem;
+  margin-top: 5.4rem;
+  font-family: "playfair display", serif;
+  position: relative;
+}
+.home__arrow {
+  transition: all linear 0.3s;
+}
+.book__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.book__title h3 {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+.book__desc {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+}
+.book__catalog {
+  width: 91rem;
+  height: 45.5rem;
+  position: relative;
+  top: 8.7rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.book__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.book__item {
+  width: 25%;
+}
+
+.book__image {
+  width: 11.5rem;
+  height: 17.4rem;
+  object-fit: cover;
+  margin-left: 50%;
+  margin-top: 5.9rem;
+  transform: translateX(-50%);
+  /*box-shadow: 0px -1rem 3rem #ccc;*/
+  box-shadow: 0.5rem 1rem 2rem 0.75rem #ccc;
+  border-left: 2px solid white;
+}
+
+.book__more {
+  position: absolute;
+  bottom: 11rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid black;
+  padding: 1.4rem 5.4rem;
+  color: #220d10;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  transition: all linear 0.3s;
+}
+
+.book__more:hover {
+  background-color: #431a21;
+  color: white;
+}
+
+.about {
+  width: 100%;
+  height: 72rem;
+  position: relative;
+}
+
+.about__image {
+  width: 126.9rem;
+  height: 46rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about__box {
+  width: 57.1rem;
+  height: 31.9rem;
+  background-color: #d1b9ba;
+  position: absolute;
+  z-index: 2;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  top: 6.1rem;
+  width: 100%;
+}
+.about__title {
+  font-family: "playfair", serif;
+  font-size: 3.5rem;
+  color: #431a20;
+}
+.about__desc {
+  width: 48.8rem;
+  margin: 3.5rem auto;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  color: #431a20;
+  line-height: 2.7rem;
+  text-align: center;
+}
+
+.about__button {
+  padding: 1.6rem 6.6rem;
+  background-color: #cb2904;
+  color: white;
+  font-family: "raleway", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  transition: all linear 0.3s;
+}
+
+.about__button:hover {
+  background-color: #431a21;
+}

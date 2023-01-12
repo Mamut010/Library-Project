@@ -1,0 +1,77 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: raleway;
+}
+
+.coverform{
+  background: url(../img/books-shelf-table-arrangement.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 67em;
+}
+
+.form__Curpass {
+  width: 60rem;
+  height: 30rem;
+  border: black;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5rem;
+  font-size: 1.5rem;
+  position: relative;
+  top: 5rem;
+}
+
+.error{
+  font-style: italic;
+  color: red;
+  font-weight: 700;
+  visibility: hidden;
+}
+
+.form__Curpass h1 {
+  text-align: center;
+}
+
+.annouce {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+input {
+  padding: 10px;
+  width: 50%;
+  font-size: 15px;
+  border: 1px solid #aaaaaa;
+}
+
+input.invalid {
+  background-color: #ffdddd;
+}
+
+.btn {
+  background-color: #724f54;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
