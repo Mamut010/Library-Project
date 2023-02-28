@@ -1,15 +1,15 @@
 # PE2022_Team 4
 
 ## Members
- - Vo Khanh Minh (16035) (Team leader)
+ - Võ Khánh Minh (16035) (Team leader)
  - Trần Gia Long (16276)
  - Nguyễn Thái Minh (15643)
  - Trần Phương Hải Đăng (15910)
- - Trương Phước Thịnh (15812)
+ - Trương Phúc Thịnh (15812)
  - Trần Đăng Tư (16664)
  - Nguyễn Xuân Minh (16029)
  - Trần Lý Đăng Khoa (16685)
- - Truong Nguyen Thien An (16772)
+ - Trương Nguyễn Thiên Ân (16772)
 
 ## Project: Online Library Management
 
